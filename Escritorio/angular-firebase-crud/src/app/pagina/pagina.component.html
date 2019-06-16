@@ -14,17 +14,23 @@
  
  
             <div class="primero" > <!--primer producto-->
-              <p class = "descripcion">libretas</p>
-              <img class="imgprod" src="src/app/pagina/imagenesstore/libreta.jpeg" alt="nombre" width="100" height="100">
+              <p class = "descripcion">HUMMER</p>
+              <img class="imgprod" src="src/app/pagina/imagenesstore/uno.jpeg" alt="nombre" width="100" height="100">
 
               <ol class="cuadro">
               <div class="form-group">
+
+
                   <mat-form-field class="input-style">
-                    <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
-                  </mat-form-field>
+                  
                   <ng-container *ngFor="let validation of validation_messages.age">
                     <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
                   </ng-container>
+                </mat-form-field>
+
+                  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                  <a href="#" class="btn btn-success">comprar</a>
+
                 </div>
 
                 </ol>
@@ -33,49 +39,61 @@
 
 
             <div class="segundo"> <!--segundo producto-->
-              <p class = "descripcion">plumones</p>
-              <img src="src/app/pagina/imagenesstore/plumones.jpeg" alt="nombre" width="100" height="100">
+              <p class = "descripcion">lamborgini</p>
+              <img src="src/app/pagina/imagenesstore/dos.jpeg" alt="nombre" width="100" height="100">
 
                 <ol class="cuadro">
                 <div class="form-group">
                     <mat-form-field class="input-style">
-                      <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
-                    </mat-form-field>
+                    
                     <ng-container *ngFor="let validation of validation_messages.age">
                       <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
                     </ng-container>
+                  </mat-form-field>
+
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                    <a href="#" class="btn btn-success">comprar</a>
+  
                   </div>
                     </ol>
               </div>
 
             <div class ="tercero"> <!--tercer producto-->
-              <p class = "descripcion">resistol</p>
-              <img src="src/app/pagina/imagenesstore/resistol.jpeg" alt="nombre" width="100" height="100">
+              <p class = "descripcion">MUSTANG</p>
+              <img src="src/app/pagina/imagenesstore/tres.jpeg" alt="nombre" width="100" height="100">
 
               <ol class="cuadro">
                 <div class="form-group">
                     <mat-form-field class="input-style">
-                      <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
-                    </mat-form-field>
+                      
                     <ng-container *ngFor="let validation of validation_messages.age">
                       <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
                     </ng-container>
+                  </mat-form-field>
+
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                    <a href="#" class="btn btn-success">comprar</a>
+  
                   </div>
                   </ol>
             </div>
 
             <div class="cuarto"> <!--cuarto producto-->
-              <p class = "descripcion">libreta 200 hojas</p>
-              <img src="src/app/pagina/imagenesstore/libreta.jpeg" alt="nombre" width="100" height="100">
+              <p class = "descripcion">PORCHE</p>
+              <img src="src/app/pagina/imagenesstore/cuatro.jpeg" alt="nombre" width="100" height="100">
 
               <ol class="cuadro">
                 <div class="form-group">
                     <mat-form-field class="input-style">
-                      <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
-                    </mat-form-field>
+                      
                     <ng-container *ngFor="let validation of validation_messages.age">
                       <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
                     </ng-container>
+                  </mat-form-field>
+
+                    <link rel="stylesheet" href="src/app/store" />
+                    <a href="#" class="btn btn-success">comprar</a>
+  
                   </div>
                   </ol>
             </div>
@@ -92,9 +110,9 @@
   </div>
 
   <div class="productos">
-    <img class="productos" src="src/app/pagina/imagenesstore/productos.jpg" alt="nombre" width="500" height="800">
+    <img class="productos" src="src/app/pagina/imagenesstore/logouno.jpeg" alt="nombre" width="500" height="800">
   </div>
 
   <div class="productos2">
-    <img class="productos2" src="src/app/pagina/imagenesstore/productos2.jpg" alt="nombre" width="500" height="600">
+    <img class="productos2" src="src/app/pagina/imagenesstore/logodos.jpeg" alt="nombre" width="500" height="600">
   </div>

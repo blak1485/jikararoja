@@ -22,6 +22,7 @@ import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule } from
 import { StoreComponent } from './store/store.component';
 import { BuyComponent } from './buy/buy.component';
 import { PaginaComponent } from './pagina/pagina.component';
+import { ProductosComponent } from './productos/productos.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { PaginaComponent } from './pagina/pagina.component';
     StoreComponent,
     BuyComponent,
     PaginaComponent,
+    ProductosComponent,
   ],
   entryComponents: [AvatarDialogComponent],
   imports: [
