@@ -1,0 +1,121 @@
+
+div .primer-bloque{
+    background-color:#0cf81831;
+    position: absolute;
+    top: 1%; 
+    left: 5%;
+    bottom:80%;
+    right:40%;
+    font-size: 40px;
+    color: rgb(250, 101, 101);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+div .dos{
+
+    position: absolute;
+    top: 20%; 
+    left: 5%;
+    bottom:1%;
+    right:20%;
+}
+
+ol .descripcion{
+    text-align: center;
+    font-size: 20pt
+}
+
+img .imgprod{
+    float: left
+}
+
+ol .cuadro{
+    background-color: rgb(197, 251, 172);
+    float: right
+}
+
+div .primero{
+        color: rgb(114, 214, 192);
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin: 0 0 25px;
+        overflow: hidden;
+        padding: 20px;
+}
+
+div .segundo{
+    color: rgb(114, 214, 192);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+div .tercero{
+    color: rgb(255, 227, 68);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+div .cuarto{
+    color: rgb(250, 101, 101);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+div .bot-cargar{
+    background-color:#666666;
+    position: absolute;
+    top: 250%; 
+    left: 40%;
+    bottom:1%;
+    right:30%;
+    margin: 5px 5px
+}
+
+div .productos{
+    position: absolute;
+    top: 1%; 
+    left: 60%;
+    bottom:80%;
+    right:1%;
+}
+
+img .productos{
+    top: 1%; 
+    left: 60%;
+    bottom:70%;
+    right:1%;
+}
+
+div .productos2{
+    position: absolute;
+    top: 128%; 
+    left: 60%;
+    bottom:1%;
+    right:1%;
+}
+
+img .productos2{
+    top: 1%; 
+    left: 50%;
+    bottom:1%;
+    right:1%;
+}

@@ -1,0 +1,100 @@
+<link rel="STYLESHEET" type="text/css" href="pagina.component.css">
+
+<div>
+  <ol>
+
+         <div class="primer-bloque">
+              <p>¡seleccione su producto!</p>
+         </div>
+
+    <div class="dos"> <!--segundo bloque-->
+
+      <ol class="ol-dos"> <!--esto crea un recuadro-->
+     <div class="col col-md-4"> <!--esto hace que se hagan en lista-->
+ 
+ 
+            <div class="primero" > <!--primer producto-->
+              <p class = "descripcion">libretas</p>
+              <img class="imgprod" src="src/app/pagina/imagenesstore/libreta.jpeg" alt="nombre" width="100" height="100">
+
+              <ol class="cuadro">
+              <div class="form-group">
+                  <mat-form-field class="input-style">
+                    <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
+                  </mat-form-field>
+                  <ng-container *ngFor="let validation of validation_messages.age">
+                    <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
+                  </ng-container>
+                </div>
+
+                </ol>
+            </div>
+
+
+
+            <div class="segundo"> <!--segundo producto-->
+              <p class = "descripcion">plumones</p>
+              <img src="src/app/pagina/imagenesstore/plumones.jpeg" alt="nombre" width="100" height="100">
+
+                <ol class="cuadro">
+                <div class="form-group">
+                    <mat-form-field class="input-style">
+                      <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
+                    </mat-form-field>
+                    <ng-container *ngFor="let validation of validation_messages.age">
+                      <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
+                    </ng-container>
+                  </div>
+                    </ol>
+              </div>
+
+            <div class ="tercero"> <!--tercer producto-->
+              <p class = "descripcion">resistol</p>
+              <img src="src/app/pagina/imagenesstore/resistol.jpeg" alt="nombre" width="100" height="100">
+
+              <ol class="cuadro">
+                <div class="form-group">
+                    <mat-form-field class="input-style">
+                      <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
+                    </mat-form-field>
+                    <ng-container *ngFor="let validation of validation_messages.age">
+                      <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
+                    </ng-container>
+                  </div>
+                  </ol>
+            </div>
+
+            <div class="cuarto"> <!--cuarto producto-->
+              <p class = "descripcion">libreta 200 hojas</p>
+              <img src="src/app/pagina/imagenesstore/libreta.jpeg" alt="nombre" width="100" height="100">
+
+              <ol class="cuadro">
+                <div class="form-group">
+                    <mat-form-field class="input-style">
+                      <input matInput type="number" min="0" max="4" placeholder="cantidad" class="form-control" formControlName="Age">
+                    </mat-form-field>
+                    <ng-container *ngFor="let validation of validation_messages.age">
+                      <mat-error *ngIf="exampleForm.get('age').hasError(validation.type) && (exampleForm.get('age').dirty || exampleForm.get('age').touched)">{{validation.message}}</mat-error>
+                    </ng-container>
+                  </div>
+                  </ol>
+            </div>
+            
+       </div>
+
+       <div class="bot-cargar">
+        <button class="boton-cargar" color="primary">comprar</button>
+      </div>
+
+      </ol>
+  </div>
+  </ol>
+  </div>
+
+  <div class="productos">
+    <img class="productos" src="src/app/pagina/imagenesstore/productos.jpg" alt="nombre" width="500" height="800">
+  </div>
+
+  <div class="productos2">
+    <img class="productos2" src="src/app/pagina/imagenesstore/productos2.jpg" alt="nombre" width="500" height="600">
+  </div>
